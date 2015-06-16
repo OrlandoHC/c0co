@@ -1,9 +1,7 @@
 <html>
 <head>
-  <title>Evernote Export</title>
   <basefont face="Tahoma" size="2" />
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-  <meta name="exporter-version" content="Evernote Windows/275837; Windows/6.3.9600;"/>
   <style>
     body, td {
       font-family: Tahoma;
