@@ -1,13 +1,12 @@
 #!/bin/bash
-
 while :
 do
     clear
     cat<<EOF
     ==============================
             Nokia N-900
-  CONSOLE CONTROL REMOTE v0.1.0-beta
-       BY @OrlandoHC(Masterkey) 
+  CONSOLE CONTROL REMOTE v0.2.0-beta
+       BY @OrlandoHC(Masterkey)
     ------------------------------
     Selecciona una Opción:
 
@@ -19,7 +18,7 @@ do
     Reiniciar               (6)
     Apagar (Emergencia)     (7)
     Salir                   (X)
-    
+
     ------------------------------
 EOF
     read -n1 -s
@@ -32,7 +31,7 @@ EOF
     "6")  reboot ;;
     "7")  poweroff ;;
     "s")  echo "Mayus -_-"   ;;
-    "X")  exit 0;; 
+    "X")  exit 0;;
      * )  echo "Opcion Invalida"     ;;
     esac
     sleep 1
